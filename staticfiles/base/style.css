@@ -1,0 +1,116 @@
+body{
+    background-color: #fafafa;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 50px;
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+    /* padding: 2rem; */
+    background-color: #fff;
+    box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+}
+
+.header-bar{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    background: linear-gradient(90deg, rgb(1, 194, 130) 0%, rgb(3, 168, 113) 43%, rgb(1, 116, 77) 100%);
+}
+
+.header-bar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.task-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.task-wrapper a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.task-view-icon{
+    flex: 1;
+    text-align: right;
+    margin-right: 1rem;
+    color: rgb(1, 116, 77) !important;
+}
+
+.delete-link{
+    color: rgb(172, 2, 2) !important;
+}
+
+#search-add-wrapper{
+    display: flex;
+    padding: 10px;
+    padding-top: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#add-link{
+    color: rgb(1, 116, 77);
+    text-decoration: none;
+    font-size: 42px;
+    text-shadow: 1px 1px rgb(1, 139, 93);
+}
+
+input[type=text],
+input[type=password],
+textarea{
+    border: 1px solid rgb(1, 116, 77);
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+}
+
+label{
+    padding-top: 10px !important;
+    display: block;
+}
+
+.button{
+    border: 1px solid rgb(1, 116, 77);
+    background-color: #fafafa;
+    color: rgb(1, 116, 77);
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-title-complete{
+    display: flex;
+    opacity: 0.6;
+}
+
+
+.task-form, .login , .register{
+    padding: 20px;
+}
+
+.task-delete{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.task-view{
+    padding: 10px;
+}
+
+.login a , .register a{
+   text-decoration: none;
+   color: rgb(1, 116, 77); 
+}
+
